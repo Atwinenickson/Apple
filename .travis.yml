@@ -1,5 +1,7 @@
-sudo: required
+#sudo: required
 dist: xenial
+virtualenv:
+  system_site_packages: true
 language: python
 python:
 - '2.7'
